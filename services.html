@@ -2,13 +2,56 @@
 <html lang="ar">
 <head>
     <meta charset="UTF-8">
-    <title>خدماتنا | شركة الخليج العالمية</title>
+    <title>الخدمات - شركة الخليج العالمية لتشييد المباني</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        .services-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            justify-content: center;
+        }
+        .service-card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px #0002;
+            padding: 24px 16px;
+            width: 260px;
+            text-align: center;
+            margin-bottom: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .service-icon {
+            font-size: 48px;
+            color: #1e7b82;
+            margin-bottom: 12px;
+        }
+        .pay-btn {
+            background: #1e7b82;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 28px;
+            margin-top: 16px;
+            font-size: 1em;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .pay-btn:hover {
+            background: #14565c;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>شركة الخليج العالمية لتشييد المباني</h1>
+        <img src="logo.png" alt="شعار الشركة" class="logo" style="height:60px;vertical-align:middle;">
+        <h1 style="display:inline-block;vertical-align:middle;">شركة الخليج العالمية لتشييد المباني</h1>
         <nav>
             <a href="index.html">الرئيسية</a>
             <a href="services.html">الخدمات</a>
@@ -17,15 +60,59 @@
         </nav>
     </header>
     <div class="container">
-        <h2>خدماتنا</h2>
-        <ul>
-            <li>إنشاء المباني السكنية والتجارية</li>
-            <li>إدارة المشاريع الإنشائية</li>
-            <li>تصميم هندسي وإشراف</li>
-            <li>ترميم وصيانة المباني</li>
-            <li>حلول هندسية مبتكرة</li>
-        </ul>
-        <a href="pay.html" class="pay-btn">ادفع الآن</a>
+        <h2 style="text-align:center;">خدماتنا</h2>
+        <div class="services-list">
+            <div class="service-card">
+                <i class="fa-solid fa-ruler-combined service-icon"></i>
+                <h3>مراجعة مخططات الهندسيه</h3>
+                <a href="https://portal.myfatoorah.com/KWT/pa/06051622612445456" target="_blank" class="pay-btn">ادفع الآن</a>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-drafting-compass service-icon"></i>
+                <h3>تصميم مخطط معماري</h3>
+                <a href="https://portal.myfatoorah.com/KWT/pa/06051622612445356" target="_blank" class="pay-btn">ادفع الآن</a>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-pencil-ruler service-icon"></i>
+                <h3>رسم هندسي</h3>
+                <a href="https://portal.myfatoorah.com/KWT/pa/06051622612444456" target="_blank" class="pay-btn">ادفع الآن</a>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-cube service-icon"></i>
+                <h3>تصميم هندسي</h3>
+                <a href="https://portal.myfatoorah.com/KWT/pa/06051622612444556" target="_blank" class="pay-btn">ادفع الآن</a>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-couch service-icon"></i>
+                <h3>تصميم الديكور</h3>
+                <a href="https://portal.myfatoorah.com/KWT/pa/06051622612445756" target="_blank" class="pay-btn">ادفع الآن</a>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-comments service-icon"></i>
+                <h3>ستشارة هندسية</h3>
+                <a href="https://portal.myfatoorah.com/KWT/pa/06051622612444656" target="_blank" class="pay-btn">ادفع الآن</a>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-bolt service-icon"></i>
+                <h3>تصميم مخطط الكهرباء</h3>
+                <a href="https://portal.myfatoorah.com/KWT/pa/06051622612445556" target="_blank" class="pay-btn">ادفع الآن</a>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-faucet-drip service-icon"></i>
+                <h3>تصميم مخطط الصحي</h3>
+                <a href="https://portal.myfatoorah.com/KWT/pa/06051622612445656" target="_blank" class="pay-btn">ادفع الآن</a>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-bed service-icon"></i>
+                <h3>تصميم غرفة النوم (Bedroom Design Example)</h3>
+                <a href="https://portal.myfatoorah.com/KWT/pa/06051622612445957" target="_blank" class="pay-btn">ادفع الآن</a>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-couch service-icon"></i>
+                <h3>تصميم غرفة المعيشة (Living Room Design Example)</h3>
+                <a href="https://portal.myfatoorah.com/KWT/pa/06051622612445856" target="_blank" class="pay-btn">ادفع الآن</a>
+            </div>
+        </div>
     </div>
     <footer>
         جميع الحقوق محفوظة &copy; شركة الخليج العالمية 2025
